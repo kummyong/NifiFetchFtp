@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <nifi.version>1.23.2</nifi.version>
+        <nifi.version>1.15.1</nifi.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>

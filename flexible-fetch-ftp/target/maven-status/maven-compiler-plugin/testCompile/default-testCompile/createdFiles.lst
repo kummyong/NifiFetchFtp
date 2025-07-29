@@ -1,0 +1,3 @@
+com\kummyong\nifi\ftp\FlexibleFetchFTPTest.class
+com\kummyong\nifi\ftp\FlexibleFetchFTPTest$TestProcessor.class
+com\kummyong\nifi\ftp\FlexibleFetchFTPTest$MockFtpClient.class

@@ -1,0 +1,4 @@
+com\kummyong\nifi\ftp\CommonsNetFtpClient.class
+com\kummyong\nifi\ftp\FtpClient.class
+com\kummyong\nifi\ftp\UrlFtpClient.class
+com\kummyong\nifi\ftp\FlexibleFetchFTP.class
