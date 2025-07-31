@@ -1,0 +1,5 @@
+# Created at 2025-07-31T22:42:34.877
+Boot Manifest-JAR contains absolute paths in classpath 'D:\workspace_java\NifiFetchFtp\flexible-fetch-ftp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

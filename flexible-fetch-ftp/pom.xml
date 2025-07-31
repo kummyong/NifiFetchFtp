@@ -3,11 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.kummyong</groupId>
     <artifactId>flexible-fetch-ftp</artifactId>
-    <version>1.0-SNAPSHOT</version>
-<<<<<<< HEAD
-=======
-    <!-- Build as a NiFi NAR so the processor can be deployed in NiFi -->
->>>>>>> 542c83582c094ee27fa1d07f9a25dfa370df5d41
+    <version>1.0</version>
     <packaging>nar</packaging>
 
     <properties>
@@ -60,7 +56,7 @@
             <plugin>
                 <groupId>org.apache.nifi</groupId>
                 <artifactId>nifi-nar-maven-plugin</artifactId>
-                <version>${nifi.version}</version>
+                <version>1.5.1</version>
                 <extensions>true</extensions>
             </plugin>
             <plugin>
@@ -68,12 +64,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M8</version>
             </plugin>
-            <plugin>
-                <groupId>org.apache.nifi</groupId>
-                <artifactId>nifi-nar-maven-plugin</artifactId>
-                <version>1.5.0</version>
-                <extensions>true</extensions>
-            </plugin>
+            
+        
         </plugins>
     </build>
 </project>
