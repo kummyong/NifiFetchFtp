@@ -4,10 +4,10 @@
     <groupId>com.kummyong</groupId>
     <artifactId>flexible-fetch-ftp</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>nar</packaging>
 
     <properties>
-        <nifi.version>1.15.1</nifi.version>
+        <nifi.version>1.28.1</nifi.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -24,11 +24,7 @@
             <artifactId>nifi-utils</artifactId>
             <version>${nifi.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>nifi-processor-utils</artifactId>
-            <version>${nifi.version}</version>
-        </dependency>
+        
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
@@ -60,6 +56,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M8</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.nifi</groupId>
+                <artifactId>nifi-nar-maven-plugin</artifactId>
+                <version>1.5.0</version>
+                <extensions>true</extensions>
             </plugin>
         </plugins>
     </build>
